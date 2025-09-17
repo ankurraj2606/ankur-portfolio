@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const ProjectCard = ({ project }) => {
   return (
@@ -50,8 +50,9 @@ const ProjectCard = ({ project }) => {
             {project.title}
           </h3>
           {project.featured && (
-            <span className="bg-primary-500 text-white text-xs px-2 py-1 rounded-full">
-              Featured
+            <span className="featured-tag bg-gradient-to-r from-primary-500 to-primary-600 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-md border border-primary-400/20 whitespace-nowrap flex items-center gap-1">
+              <span>⭐</span>
+              <span>Featured</span>
             </span>
           )}
         </div>

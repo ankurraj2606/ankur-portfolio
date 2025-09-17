@@ -162,6 +162,28 @@ export const projects = [
     category: "Demo Platform",
     impact: "25% improvement in QA cycle time",
     featured: false
+  },
+  {
+    id: 7,
+    title: "Best Image Editor",
+    description: "A comprehensive web-based image editing application built with React.js featuring advanced editing tools, filters, and real-time image manipulation capabilities.",
+    image: "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=500&h=300&fit=crop",
+    technologies: ["React.js", "Canvas API", "Image Processing", "CSS3", "HTML5"],
+    category: "Personal Project",
+    featured: true,
+    github: "https://github.com/ankurraj2606/Image-Editor",
+    demo: "https://bestimageditor.netlify.app/imageeditor"
+  },
+  {
+    id: 8,
+    title: "Password Generator",
+    description: "A secure and customizable password generator application with advanced options for creating strong passwords. Features length customization, character set selection, and password strength indicators.",
+    image: "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=500&h=300&fit=crop",
+    technologies: ["React.js", "JavaScript", "CSS3", "Security Algorithms", "HTML5"],
+    category: "Personal Project",
+    featured: true,
+    github: "https://github.com/ankurraj2606/password-generator",
+    demo: "https://jade-youtiao-def719.netlify.app/"
   }
 ];
 
