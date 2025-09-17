@@ -4,7 +4,7 @@ export const personalInfo = {
   location: "Bengaluru, India",
   email: "ankurraj2606@gmail.com",
   phone: "+91 91422 79544",
-  linkedin: "https://linkedin.com/in/ankurraj2606",
+  linkedin: "https://www.linkedin.com/in/ankur-raj-b25743138/",
   github: "https://github.com/ankurraj2606",
   bio: "Frontend Software Engineer with hands-on experience delivering production-grade web apps using React/Next.js, TypeScript, and modern styling and state-management patterns. I focus on clean component design, performance tuning, and accessibility while collaborating closely with product designers and backend engineers to deliver business value. Comfortable owning features end-to-end — from prototyping and implementation to testing and optimization — and mentoring peers to raise overall code quality. I bring a pragmatic, user-first approach that balances fast delivery with sustainable architecture.",
   resumeUrl: "/Resume-AnkurRaj.pdf"
