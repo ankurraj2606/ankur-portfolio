@@ -7,7 +7,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/ankur-raj-b25743138/",
   github: "https://github.com/ankurraj2606",
   bio: "Senior Frontend Engineer with strong problem-solving skills and expertise in Data Structures & Algorithms, specializing in React/Next.js and TypeScript. With 4+ years of experience building scalable web applications for enterprise clients, I excel at breaking down complex problems into efficient, maintainable solutions. Currently seeking senior frontend roles in product-based companies where I can drive product development from concept to launch. I excel at owning full product features end-to-end, optimizing for performance and user experience, and collaborating cross-functionally to deliver high-impact solutions. Open to remote opportunities with competitive compensation packages.",
-  resumeUrl: "/Resume-AnkurRaj.pdf",
+  resumeUrl: "/Ankur-Resume.pdf",
   careerGoals: {
     targetRole: "Senior Frontend Engineer",
     targetCompanies: "Product-based companies (SaaS, Fintech, Healthtech)",

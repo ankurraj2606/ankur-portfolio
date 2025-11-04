@@ -63,7 +63,7 @@ const About = () => {
   const handleDownloadResume = () => {
     const link = document.createElement("a");
     link.href = personalInfo.resumeUrl;
-    link.download = "Resume-AnkurRaj.pdf";
+    link.download = "Ankur-Resume.pdf";
     link.target = "_blank";
     document.body.appendChild(link);
     link.click();
@@ -151,6 +151,7 @@ const About = () => {
                   <img
                     src="/ankur_image.jpeg"
                     alt="Ankur Raj - Frontend Software Engineer"
+                    loading="lazy"
                     className="w-full h-full object-cover"
                   />
                 </div>

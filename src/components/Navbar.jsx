@@ -38,6 +38,7 @@ const Navbar = () => {
               <img
                 src="/ankur_image.jpeg"
                 alt="Ankur Raj"
+                loading="lazy"
                 className="w-full h-full object-cover"
               />
             </div>
