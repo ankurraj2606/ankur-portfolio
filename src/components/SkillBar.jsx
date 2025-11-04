@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import { useState, useEffect } from "react";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 const SkillBar = ({ skill, delay = 0 }) => {
   const [progress, setProgress] = useState(0);

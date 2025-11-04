@@ -1,5 +1,3 @@
-import React from "react";
-
 const ProjectCard = ({ project }) => {
   return (
     <div className="card group cursor-pointer h-full flex flex-col">

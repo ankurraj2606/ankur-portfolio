@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -71,14 +71,13 @@ const ContactForm = () => {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "YOUR_WEB3FORMS_ACCESS_KEY",
+          access_key: import.meta.env.VITE_WEB3FORMS_ACCESS_KEY,
           name: formData.name,
           email: formData.email,
           company: formData.company,
           subject: formData.subject,
           message: formData.message,
           from_name: formData.name,
-          to_email: "ankurraj2606@gmail.com",
         }),
       });
 

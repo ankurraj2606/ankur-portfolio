@@ -1,7 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import { useState, useEffect } from "react";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
-const AnimatedCounter = ({ end, duration = 2000, suffix = "", prefix = "" }) => {
+const AnimatedCounter = ({
+  end,
+  duration = 2000,
+  suffix = "",
+  prefix = "",
+}) => {
   const [count, setCount] = useState(0);
   const [ref, isVisible] = useScrollAnimation();
 
@@ -24,7 +29,9 @@ const AnimatedCounter = ({ end, duration = 2000, suffix = "", prefix = "" }) => 
 
   return (
     <span ref={ref} className="text-3xl font-bold text-primary-400">
-      {prefix}{count}{suffix}
+      {prefix}
+      {count}
+      {suffix}
     </span>
   );
 };

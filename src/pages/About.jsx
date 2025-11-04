@@ -1,4 +1,3 @@
-import React from "react";
 import SkillBar from "../components/SkillBar";
 import AnimatedCounter from "../components/AnimatedCounter";
 import {
@@ -9,6 +8,56 @@ import {
   certifications,
   stats,
 } from "../utils/data";
+
+const CareerGoals = () => (
+  <div className="card mb-8">
+    <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
+      🎯 Career Goals
+    </h2>
+    <div className="grid md:grid-cols-2 gap-6">
+      <div>
+        <h3 className="text-lg font-semibold text-primary-400 mb-3">
+          Target Role
+        </h3>
+        <p className="text-gray-700 dark:text-gray-300">
+          {personalInfo.careerGoals.targetRole}
+        </p>
+      </div>
+      <div>
+        <h3 className="text-lg font-semibold text-primary-400 mb-3">
+          Target Companies
+        </h3>
+        <p className="text-gray-700 dark:text-gray-300">
+          {personalInfo.careerGoals.targetCompanies}
+        </p>
+      </div>
+      <div>
+        <h3 className="text-lg font-semibold text-primary-400 mb-3">
+          Salary Range
+        </h3>
+        <p className="text-gray-700 dark:text-gray-300">
+          {personalInfo.careerGoals.salaryRange}
+        </p>
+      </div>
+      <div>
+        <h3 className="text-lg font-semibold text-primary-400 mb-3">
+          Work Preference
+        </h3>
+        <p className="text-gray-700 dark:text-gray-300">
+          {personalInfo.careerGoals.workPreference}
+        </p>
+      </div>
+    </div>
+    <div className="mt-6 p-4 bg-green-50 dark:bg-green-500/10 border border-green-500 rounded-lg">
+      <div className="flex items-center space-x-3">
+        <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+        <span className="text-green-700 dark:text-green-400 font-medium">
+          {personalInfo.careerGoals.availability}
+        </span>
+      </div>
+    </div>
+  </div>
+);
 
 const About = () => {
   const handleDownloadResume = () => {
@@ -33,6 +82,8 @@ const About = () => {
           </p>
         </div>
 
+        <CareerGoals />
+
         <div className="mb-16">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
@@ -47,6 +98,11 @@ const About = () => {
                   Key Achievements
                 </h3>
                 <ul className="space-y-2 text-gray-700 dark:text-gray-300">
+                  <li className="flex items-center">
+                    <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
+                    Strong problem-solving skills with expertise in Data
+                    Structures & Algorithms
+                  </li>
                   <li className="flex items-center">
                     <span className="w-2 h-2 bg-primary-500 rounded-full mr-3"></span>
                     JavaScript SDKs adopted by 15+ banks globally
